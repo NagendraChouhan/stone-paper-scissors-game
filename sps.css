@@ -1,0 +1,133 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aside
+{
+    
+    box-shadow: 8px 8px 6px black;
+    max-width: 20%;
+    min-width: 12%;
+    min-height: 200px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    /* display: inline-block; */
+    float: right;
+    margin-right: 10%;
+    margin-top: 9%; 
+    background-color: lightblue;
+}
+section
+{
+    text-align: center;
+    display: inline-block;
+    max-width: 70%;
+    min-width: 55%;
+    max-height: 400px;
+    min-height: 300px;
+    padding: 1%;
+    margin: 1%;
+    margin-top: 7%;
+    float: right;
+    margin-left: 0%;
+}
+.ch
+{
+    text-align: right;
+    width: 80%;
+    height: 25px;
+    border-radius: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.l
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+
+}
+#star_btn
+{
+    min-width: 40%;
+    height: 40px;
+    border-radius: 5px 5px;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow:7px 8px 6px black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.row_btn
+{
+    width: 140px;
+    height: 45px;
+    /* padding: 0.5%; */
+    margin: 2%;
+    border: none;
+    border-radius: 10px 10px;
+    background-color: lavenderblush;
+    box-shadow:7px 8px 6px pink;
+    cursor: pointer;
+    font-size: 30px;
+    position: static;
+    text-align: center;
+    display: inline-block;
+}
+.hum{
+    float: right;
+}
+.comp{
+    float: left;
+}
+.comp,.hum
+{
+    display: inline-block;
+    width: 45%;
+    height: 30px;
+    font-size: 25px;
+}
+.comp_hum
+{
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    display: inline-block;
+    overflow: auto;
+    width: auto;
+    height: 300px;
+}
+.container
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#result
+{
+    color: white; 
+    font-size: 25px;
+    box-shadow:4px 4px 2px white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 10%;
+    margin-left: 15%;
+    display: none;
+}
+.hcbg
+{
+    background-image: url('img/tenor.gif');
+    box-shadow: 4px 4px 2px black;
+    overflow: auto;
+    margin-bottom: 2%;
+    width: 99%;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

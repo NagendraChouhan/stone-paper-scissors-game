@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="cityskyline.png" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="sps.css">
+</head>
+<body style="background-image: url(img/cityskyline.png);">
+    <aside class="aside">
+            <button id="star_btn" onclick="start()">Restart Game</button><br><br>
+            <label for="c" class="l" >Computer</label>
+            <input class="ch c" type="text" readonly value="0"><br><br>
+            <label for="h" class="l">human</label>
+            <input class="ch h" type="text" readonly value="0"><br>
+    </aside>
+    <section>
+        <div class="comp_hum">
+            <div>
+                <div class="container">
+                </div>
+                <div class="hcbg">
+                    <div class="hum">
+                        Human
+                    </div>
+                    <div class="comp">
+                        Computer
+                    </div>
+                </div>
+                <button class="row_btn" onclick="check(0)">Stone</button>
+                <button class="row_btn" onclick="check(1)">Paper</button>
+                <button class="row_btn" onclick="check(2)">Scissors</button>
+            </div>
+        </div>
+        <div class="comp_hum" style="width: 35%; margin-top: 2%;">
+            <span id="result">win</span><br><br>
+
+            <div class="hum">
+                <div  style="text-decoration: underline; color: white">
+                    Computer
+                </div>
+                <br>
+                <div class="value_select">&nbsp;</div>
+            </div>
+            <div class="hum">
+                <div  style="text-decoration: underline; color: white;">
+                    Human
+                </div><br>
+                <div class="value_select">&nbsp;</div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="sps.js"></script>
+</body>
+</html>
